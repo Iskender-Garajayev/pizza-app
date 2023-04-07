@@ -1,0 +1,21 @@
+:root{
+  --orange: #ff5800;
+}
+
+
+.logo-navbar-container{
+  width: 1920px;
+  padding: 0 10px 0 10px;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 70px;
+}
+
+.logo span{
+  color: var(--orange);
+  font-family: Quicksand;
+  font-weight: 600;
+  font-size: 48px;
+}
