@@ -21,7 +21,13 @@ const Home = () => {
       </div>
       <div className="home">
         <div className="title">
-           
+           <h2>Pizza family</h2>
+           <h4>people disappoint, but pizza never does</h4>
+           <div className="input-btn">
+            <input type="text" />
+            <button>search location</button>
+           </div>
+           <button>Try now</button>
         </div>
         <div className="img">
           <img src={Table} alt="" />
