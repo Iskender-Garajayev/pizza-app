@@ -4,7 +4,7 @@
 
 
 .logo-navbar-container{
-  width: 1920px;
+  width: 1320px;
   padding: 0 10px 0 10px;
   margin: auto;
   display: flex;
@@ -13,9 +13,39 @@
   height: 70px;
 }
 
+
+.logo{
+  height: 70px;
+  display: flex;
+  align-items: center;
+
+}
+
 .logo span{
   color: var(--orange);
   font-family: Quicksand;
+  font-weight: 700;
+  font-size: 25px;
+}
+
+.logo img{
+  width: 30px;
+}
+
+.navbar ul li{
+  list-style-type: none;
+  color: var(--orange);
   font-weight: 600;
-  font-size: 48px;
+  display: flex;
+  font-size: 25px;
+  font-family:Quicksand ;
+  text-transform: capitalize;
+}
+
+.navbar ul{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 18px;
+  height: 70px;
 }
